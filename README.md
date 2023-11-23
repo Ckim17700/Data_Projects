@@ -8,7 +8,7 @@ NYC Taxi:
      Data Warehouse - Google BigQuery
      Data Visualization - Google Looker Studio
 
-  2. 
+
 
 
 Basic Framework:
