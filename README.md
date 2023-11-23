@@ -1,4 +1,4 @@
-List of Projects Completed in order to learn and maintain knowledge of end to end data engineering tools and processes
+List of Projects Completed to maintain knowledge and continously learn end to end data engineering tools and processes
 
 NYC Taxi:
 
