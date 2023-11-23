@@ -2,7 +2,7 @@ List of Projects Completed to maintain knowledge and continously learn end to en
 
 NYC Taxi:
 
-     ETL Pipeline - Mage
+     ETL Pipeline - Mage-ai
      Storage - Google Cloud Storage
      Instance - Google Compute Engine
      Data Warehouse - Google BigQuery
