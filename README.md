@@ -1,8 +1,18 @@
 List of Projects Completed in order to learn and maintain knowledge of end to end data engineering tools and processes
-  1. NYC Taxi
+  1. NYC Taxi:
+
+     ETL Pipeline - Mage
+     Storage - Google Cloud Storage
+     Instance - Google Compute Engine
+     Data Warehouse - Google BigQuery
+     Data Visualization - Google Looker Studio
+
   2. 
 
+
 Basic Framework:
+
+
 
 1. Take data set
 2. Build data model in fact and dimension format
@@ -11,3 +21,4 @@ Basic Framework:
 5. Install tool (Open Source Modern Data Pipeline Tool)
 6. Load data into Data Warehouse
 7. Create final dashboard
+
