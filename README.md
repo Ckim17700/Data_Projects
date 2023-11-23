@@ -1,5 +1,6 @@
 List of Projects Completed in order to learn and maintain knowledge of end to end data engineering tools and processes
-  1. NYC Taxi:
+
+NYC Taxi:
 
      ETL Pipeline - Mage
      Storage - Google Cloud Storage
