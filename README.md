@@ -8,6 +8,11 @@ NYC Taxi:
      Data Warehouse - Google BigQuery
      Data Visualization - Google Looker Studio
 
+Twitter:
+
+     ETL Pipeline - Airflow
+     Storage - AWS S3
+     Instance - AWS EC2
 
 
 
