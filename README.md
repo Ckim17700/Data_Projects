@@ -14,7 +14,7 @@ PGA Stats:
      Storage - AWS S3
      Instance - AWS EC2
 
-Real Time Processing:
+Kafka Processing:
 
      Stream Processing - Apache Kafka
      Instance - AWS EC2
