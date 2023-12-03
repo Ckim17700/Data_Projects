@@ -14,6 +14,14 @@ PGA Stats:
      Storage - AWS S3
      Instance - AWS EC2
 
+Stock Market:
+
+     Stream Processing - Apache Kafka
+     Instance - AWS EC2
+     Storage - AWS S3
+     Data Integration - AWS Glue Crawler, AWS Glue Data Catalog
+     Data Warehouse - AWS Athena
+     
 
 
 Basic Framework:
