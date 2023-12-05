@@ -1,0 +1,126 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red202\green51\blue35;\red0\green0\blue0;\red86\green32\blue244;
+\red18\green19\blue24;\red255\green255\blue255;\red67\green73\blue81;\red249\green249\blue249;\red247\green247\blue247;
+\red239\green240\blue240;\red11\green12\blue12;\red220\green224\blue226;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c83899\c28663\c18026;\csgray\c0;\cssrgb\c41681\c25958\c96648;
+\cssrgb\c8627\c9804\c12157;\cssrgb\c100000\c100000\c100000;\cssrgb\c32941\c35686\c39216;\cssrgb\c98039\c98039\c98039;\cssrgb\c97647\c97647\c97647;
+\cssrgb\c94902\c95294\c95294;\cssrgb\c4706\c5098\c5490;\cssrgb\c89020\c90196\c90980;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww16940\viewh14200\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Connecting to Instance:\
+-----------------------\
+chmod 400 &Keyname\
+\
+\
+Download Apache:\
+-----------------------\
+wget https://downloads.apache.org/kafka/3.6.0/kafka_2.13-3.6.0.tgz\
+tar -xvf 
+\f1\b\fs22 \cf2 \CocoaLigature0 kafka_2.13-3.6.0.tgz
+\f2\b0 \cf3 \
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+\
+should have these two zips:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs22 \cf4 \CocoaLigature0 kafka_2.13-3.6.0
+\f2\b0 \cf3   
+\f1\b \cf2 kafka_2.13-3.6.0.tgz
+\f2\b0 \cf3 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+D
+\f3 ownload Java\
+-----------------------\
+\pard\pardeftab720\sa390\partightenfactor0
+\cf5 \cb6 \expnd0\expndtw0\kerning0
+Option 1: Use the yum Package Manager on Amazon Linux\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf5 \cb6 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Enable the yum repository in Amazon Linux 2. This is not required on Amazon Linux 2022 and later. \cb1 \uc0\u8232 \AppleTypeServices\AppleTypeServicesF65539 \cf7 \cb8 \uc0\u8232 \AppleTypeServices \cf5 \cb9 sudo amazon-linux-extras enable corretto8\uc0\u8232 \cb1 \
+\ls1\ilvl0\cb6 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+You can install Amazon Corretto 8 as either the runtime environment (JRE) or the full development environment (JDK). The development environment includes the runtime environment. \cb1 \uc0\u8232 \cb6 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Install Amazon Corretto 8 as JRE.\cb1 \uc0\u8232 \AppleTypeServices\AppleTypeServicesF65539 \cf7 \cb8 \uc0\u8232 \AppleTypeServices \cf5 \cb9 sudo yum install java-1.8.0-amazon-corretto\cb1 \uc0\u8232 \u8232 \cb6 Install Amazon Corretto 8 as JDK.\cb1 \uc0\u8232 \AppleTypeServices\AppleTypeServicesF65539 \cf7 \cb8 \uc0\u8232 \AppleTypeServices \cf5 \cb9 sudo yum install java-1.8.0-amazon-corretto-devel\cb1 \uc0\u8232 \u8232 \cb6 The installation location is \cb10 /usr/lib/jvm/java-1.8.0-amazon-corretto.<cpu_arch>\cb6 .\cf11 \cb1 \
+\pard\tx720\pardeftab720\partightenfactor0
+\cf11 \
+\pard\pardeftab720\sa330\partightenfactor0
+\cf11 \cb6 Check if Java has been installed\cb1 \uc0\u8232 \cb12 java --version\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 D
+\f3 ownload Kafka\
+-----------------------
+\f0 \
+cd 
+\f1\b\fs22 \cf4 \CocoaLigature0 kafka_2.13-3.6.0
+\f0\b0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Start Zoo-keeper:\
+-------------------------------\
+cd 
+\f1\b\fs22 \cf4 \CocoaLigature0 kafka_2.13-3.6.0
+\f0\b0\fs24 \cf0 \CocoaLigature1 \
+\
+bin/zookeeper-server-start.sh config/zookeeper.properties\
+\
+\
+Start Kafka-server:\
+----------------------------------------\
+Reallocate memories: \
+export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"\
+\
+cd 
+\f1\b\fs22 \cf4 \CocoaLigature0 kafka_2.13-3.6.0\
+
+\f0\b0\fs24 \cf0 \CocoaLigature1 \
+bin/kafka-server-start.sh config/server.properties\
+\
+\
+Change Kafka-server ip address:\
+----------------------------------------\
+\
+sudo nano config/server.properties\
+\
+- change ADVERTISED_LISTENERS to public ip of the EC2 instance\
+\
+\
+Create the topic:\
+-----------------------------\
+Duplicate the session & enter in a new console --\
+cd 
+\f1\b\fs22 \cf4 \CocoaLigature0 kafka_2.13-3.6.0
+\f0\b0\fs24 \cf0 \CocoaLigature1 \
+bin/kafka-topics.sh --create --topic ck --bootstrap-server 
+\f4\fs28 \expnd0\expndtw0\kerning0
+50.19.142.79:9092
+\f0\fs24 \kerning1\expnd0\expndtw0  --replication-factor 1 --partitions 1\
+\
+Start Producer:\
+--------------------------\
+bin/kafka-console-producer.sh --topic ck --bootstrap-server 
+\f4\fs28 \expnd0\expndtw0\kerning0
+50.19.142.79:9092
+\f0\fs24 \kerning1\expnd0\expndtw0 \
+\
+Start Consumer:\
+-------------------------\
+Duplicate the session & enter in a new console --\
+cd 
+\f1\b\fs22 \cf4 \CocoaLigature0 kafka_2.13-3.6.0
+\f0\b0\fs24 \cf0 \CocoaLigature1 \
+bin/kafka-console-consumer.sh --topic ck --bootstrap-server 
+\f4\fs28 \expnd0\expndtw0\kerning0
+50.19.142.79:9092}
