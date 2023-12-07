@@ -8,6 +8,12 @@ NYC Taxi:
      Data Warehouse - Google BigQuery
      Data Visualization - Google Looker Studio
 
+Crypto Batch Processing:
+
+     API - CoinMarketCap
+    
+
+
 PGA Stats:
 
      ETL Pipeline - Airflow
