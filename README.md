@@ -14,7 +14,7 @@ Crypto Batch Processing:
     
 
 
-Cryptocurrency:
+Airflow:
 
      ETL Pipeline - Airflow
      Storage - AWS S3
