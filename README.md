@@ -14,7 +14,7 @@ Crypto Batch Processing:
     
 
 
-PGA Stats:
+Cryptocurrency:
 
      ETL Pipeline - Airflow
      Storage - AWS S3
