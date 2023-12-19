@@ -11,8 +11,6 @@ NYC Taxi:
 Crypto Batch Processing:
 
      API - CoinMarketCap
-    
-
 
 Airflow:
 
@@ -27,7 +25,10 @@ Kafka Processing:
      Storage - AWS S3
      Data Integration - AWS Glue Crawler, AWS Glue Data Catalog
      Data Warehouse - AWS Athena
-     
+
+PGA TOUR Stats:
+
+     RDBMS - Postgres
 
 
 Basic Framework:
